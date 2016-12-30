@@ -312,7 +312,7 @@ static ngx_int_t ngx_http_ua_parse_kind_variable(ngx_http_request_t *r,
 	ngx_http_ua_parse_mod_conf_t *upcf;
   ngx_http_ua_parse_loc_conf_t *loc_conf;
 	u_char *str;
-	ngx_regex_compile_t *mobileKind, *tabletKind, *botKind;
+	//ngx_regex_compile_t *mobileKind, *tabletKind, *botKind;
 
 	upcf = ngx_http_get_module_main_conf(r, ngx_http_ua_parse_module);
   loc_conf = ngx_http_get_module_loc_conf(r, ngx_http_ua_parse_module);
